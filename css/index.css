@@ -180,7 +180,9 @@ nav a {
     nav a {
         display: flex;
         border-bottom: 1px solid black;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .wrapper{
         display: flex;
